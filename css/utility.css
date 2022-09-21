@@ -1,0 +1,175 @@
+.navbar{
+    background-color: var(--primary-color);
+    color:#fff;
+    height: 70px;
+    
+    
+}
+div{
+    display: block;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    overflow: hidden;
+    padding: 0 40px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    color:#fff;
+    padding: 1em;
+    margin: 0 5px;
+}
+.showcase{
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+.showcase h1{
+    font-size: 40px;
+}
+.showcase::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+}.showcase .grid{
+    overflow: visible;
+    gap: 30px;
+
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.showcase-text{
+    animation: slideinfromleft 1s ease-in;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.btn-outline{
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+.showcase::after{
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #fff;
+}
+.showcase-form{
+    position: relative;
+    top:10px;
+    height: 300px;
+    width: 350px;
+    padding: 40px;
+    z-index: 100;
+    justify-self: flex-end;
+    animation: slideinfromright 1s ease-in;
+}
+.card{
+    position: relative;
+    top: -100px;
+    background-color:aliceblue;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding: 20px;
+}
+.showcase-form .form-control{
+    margin: 30px 0;
+}
+.stats{
+   
+    color: #333;
+    padding-top: 100px;
+    animation: slideinfrombottom 1s ease-in;
+}
+.stats-heading{
+    max-width: 500px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.my-4{
+    margin: 3rem 0;
+}
+.grid-3{
+    grid-template-columns: repeat(3,1fr);
+}
+.stats .grid p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
+.cloud{
+    background-color: var(--primary-color);
+    padding: 1.5rem 0;
+    color: #fff;
+}
+.lg{
+    font-size: 3rem;
+}
+.lead{
+    font-size: 20px;
+}
+.btn-dark{
+    background-color: var(--dark-color);
+}
+.my-2{
+    margin:1.5rem;
+}
+.languages .cards{
+    text-align: center;
+    margin: 28px 10px 40px;
+    transition: 1s ease-in-out;
+
+}
+.cards{
+    position: relative;
+    top: -40px;
+    background-color:aliceblue;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding: 50px;
+}
+.footer{
+    display: block;
+    background-color: var(--dark-color);
+    color: #fff;
+   
+}
+.navbar nav ul li a:hover{
+    color:black;
+    transition: 1s ease;
+}
+
+
